@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+}
+.container__opciones{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    gap: 1rem;
+}
+.container__resultado{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.resultado__user{
+    border: solid 1px #000;
+    padding: 1rem;
+}
+.resultado__pc{
+    border: solid 1px #000;
+    padding: 1rem;
+}
+.resultado__empate{
+    border: solid 1px #000;
+    padding: 1rem;
+}
+.container__resultado input{
+    width: 20%;
+}

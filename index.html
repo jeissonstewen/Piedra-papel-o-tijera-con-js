@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="btn_jugar" oneclick="jugar()">Jugar</button>
+        <div class="container__opciones">
+            <div class="opciones__button"><button id="piedra">Piedra</button></div>
+            <div class="opciones__button"><button id="papel">Papel</button></div>
+            <div class="opciones__button"><button id="tijera">Tijera</button></div>
+        </div>
+        <div class="container__resultado">
+            <div class="resultado__user">
+                <label for="user">Usuario:</label>
+                <label id="user" for="user">0</label>
+            </div>
+            <div class="resultado__empate">
+                <label for="empate">Empate:</label>
+                <label id="empate" for="empate">0</label>
+            </div>
+            <div class="resultado__pc">
+                <label for="user">Maquina:</label>
+                <label id="pc" for="user">0</label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
