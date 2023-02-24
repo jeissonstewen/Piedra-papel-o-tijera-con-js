@@ -1,7 +1,7 @@
 const piedra=1, papel=2, tijera=3
 let juegos, usuario,eleccion, user = 0, pc =0, emp=0, cont=0
 
-const botonJugar= document.getElementById('btn_jugar')
+const botonJugar= document.getElementById('jugar')
 botonJugar.addEventListener('click',jugar)
 
 function jugar(){

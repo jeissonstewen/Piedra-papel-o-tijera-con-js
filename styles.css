@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
+body{
+    height: 90%;
+    background-image: url(https://images.pexels.com/photos/7004955/pexels-photo-7004955.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+}
 .container{
     margin: auto;
     margin-top: 2rem;
@@ -15,6 +23,7 @@
     margin: 2rem;
     gap: 1rem;
 }
+
 .container__resultado{
     display: flex;
     justify-content: center;

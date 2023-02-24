@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="container">
-        <button id="btn_jugar" oneclick="jugar()">Jugar</button>
+        <input type="image" id="jugar" oneclick="jugar()" src="./jugar.png" alt="piedra" width="60%">
         <div class="container__opciones">
-            <div class="opciones__button"><button id="piedra">Piedra</button></div>
-            <div class="opciones__button"><button id="papel">Papel</button></div>
-            <div class="opciones__button"><button id="tijera">Tijera</button></div>
+            <input type="image" id="piedra" src="./piedra.png" alt="piedra" width="25%">
+            <input type="image" id="papel" src="./papel.png" alt="papel" width="25%">
+            <input type="image" id="tijera" src="./tijera.png" alt="tijera" width="25%">
         </div>
         <div class="container__resultado">
             <div class="resultado__user">
@@ -30,8 +30,6 @@
             </div>
         </div>
     </div>
-
-
 
     <script src="./main.js"></script>
 </body>
